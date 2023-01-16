@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="MovieSortTypes">
+        <item>Popular Movies</item>
+        <item>Top Rated Movies</item>
+        <item>Upcoming Movies</item>
+    </string-array>
+
+    <string-array name="TvShowSortTypes">
+        <item>Popular TV Shows</item>
+        <item>Top Rated TV Shows</item>
+        <item>TV Shows On The Air</item>
+    </string-array>
+</resources>

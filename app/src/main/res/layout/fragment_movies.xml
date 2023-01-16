@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <data>
+        <import type="android.view.View" />
+
+        <variable name="fragmentMovies"
+            type="com.serhat.moviedatabase.ui.view.fragment.MoviesFragment" />
+
+        <variable name="adapterMovie"
+            type="com.serhat.moviedatabase.ui.view.adapter.MovieAdapter" />
+
+        <variable name="showProgressBar"
+            type="Boolean" />
+    </data>
+
+    <androidx.core.widget.NestedScrollView
+        android:id="@+id/frgMoviesNestedScrollView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        tools:context=".ui.view.fragment.MoviesFragment">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <com.skydoves.powerspinner.PowerSpinnerView
+                android:id="@+id/frgMoviesSpSort"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/md_brown_400"
+                android:hint="@string/lbl_sort_by"
+                android:padding="16dp"
+                android:textColor="@color/white"
+                android:textColorHint="@color/white"
+                android:textSize="18sp"
+                app:spinner_arrow_gravity="end"
+                app:spinner_arrow_padding="8dp"
+                app:spinner_divider_color="@color/md_brown_700"
+                app:spinner_divider_show="true"
+                app:spinner_divider_size="0.5dp"
+                app:spinner_item_array="@array/MovieSortTypes"
+                app:spinner_popup_animation="dropdown"
+                app:spinner_popup_elevation="14dp" />
+
+            <EditText
+                android:id="@+id/frgMoviesTxtSearchQuery"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:inputType="textPersonName"
+                android:lines="1"
+                android:layout_marginVertical="8dp"
+                android:layout_marginHorizontal="16dp"
+                android:textSize="18sp"
+                android:background="@drawable/custom_edittext"
+                android:padding="16dp"
+                android:drawablePadding="8dp"
+                android:drawableStart="@drawable/ic_search"
+                android:hint="@string/lbl_search_movie" />
+
+            <Button
+                android:id="@+id/frgMoviesBtnSearch"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginHorizontal="16dp"
+                android:layout_marginBottom="8dp"
+                android:onClick="@{() -> fragmentMovies.searchMovie(frgMoviesTxtSearchQuery.getText().toString().trim())}"
+                style="@style/Button"
+                android:text="@string/btn_search" />
+
+            <androidx.recyclerview.widget.RecyclerView
+                android:id="@+id/frgMoviesRecyclerView"
+                android:nestedScrollingEnabled="false"
+                android:adapter="@{adapterMovie}"
+                app:layoutManager="androidx.recyclerview.widget.LinearLayoutManager"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent" />
+
+            <ProgressBar
+                android:id="@+id/frgMoviesProgressBar"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:visibility="@{showProgressBar ? View.VISIBLE : View.GONE}" />
+        </LinearLayout>
+    </androidx.core.widget.NestedScrollView>
+</layout>

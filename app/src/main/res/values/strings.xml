@@ -1,0 +1,46 @@
+<resources>
+    <string name="app_name" translatable="false">Movie Database</string>
+
+    <string name="menu_bottom_lbl_movies">Movies</string>
+    <string name="menu_bottom_lbl_tv_shows">TV Shows</string>
+
+    <string name="lbl_sort_by">Sort by</string>
+    <string name="btn_search">Search</string>
+    <string name="msg_search_query_cant_be_empty">Search query can not be empty.</string>
+
+    <string name="lbl_search_movie">Search movie</string>
+    <string name="lbl_search_tv">Search tv show</string>
+
+    <string name="msg_movie_details_couldnt_loaded">Movie details couldn\'t loaded.</string>
+    <string name="msg_tv_show_details_couldnt_loaded">Tv Show details couldn\'t loaded.</string>
+    <string name="movie_hasnt_got_an_overview">This movie has not got an overview.</string>
+    <string name="tv_show_hasnt_got_an_overview">This tv show has not got an overview.</string>
+
+    <string name="lbl_release_date">Release Date:</string>
+    <string name="lbl_status">Status:</string>
+    <string name="lbl_runtime">Runtime:</string>
+    <string name="lbl_vote_count">Vote Count:</string>
+    <string name="lbl_vote_average">Vote Average:</string>
+    <string name="lbl_original_language">Original Language:</string>
+    <string name="lbl_original_title">Original Title:</string>
+    <string name="lbl_budget">Budget:</string>
+    <string name="lbl_revenue">Revenue:</string>
+    <string name="lbl_adult">Adult:</string>
+    <string name="lbl_seasons">Seasons:</string>
+    <string name="lbl_episodes">Episodes:</string>
+    <string name="lbl_first_air_date">First Air Date</string>
+
+    <string name="btn_see_movie_details">Movie Details</string>
+    <string name="btn_see_tv_show_details">Tv Show Details</string>
+
+    <string name="lbl_genres">Genres</string>
+
+    <string name="lbl_movie_details">Movie Details</string>
+    <string name="lbl_tv_show_details">Tv Show Details</string>
+
+    <string name="lbl_similar_tv_shows">Similar Tv Shows</string>
+    <string name="lbl_similar_movies">Similar Movies</string>
+
+    <string name="lbl_yes">Yes</string>
+    <string name="lbl_no">No</string>
+</resources>

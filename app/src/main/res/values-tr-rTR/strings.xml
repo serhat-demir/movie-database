@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="menu_bottom_lbl_movies">Filmler</string>
+    <string name="menu_bottom_lbl_tv_shows">Diziler</string>
+    <string name="lbl_sort_by">Sırala</string>
+    <string name="btn_search">Ara</string>
+    <string name="msg_search_query_cant_be_empty">Arama sorgusu boş olamaz.</string>
+    <string name="lbl_search_movie">Film ara</string>
+    <string name="lbl_search_tv">Dizi ara</string>
+    <string name="msg_movie_details_couldnt_loaded">Film detayları yüklenemedi.</string>
+    <string name="movie_hasnt_got_an_overview">Bu film için açıklama bulunmuyor.</string>
+    <string name="lbl_release_date">Yayın Tarihi:</string>
+    <string name="lbl_status">Durum:</string>
+    <string name="lbl_runtime">Süre:</string>
+    <string name="lbl_vote_count">Puan Sayısı:</string>
+    <string name="lbl_vote_average">Puan Ortalaması:</string>
+    <string name="lbl_original_language">Orijinal Dil:</string>
+    <string name="lbl_original_title">Orijinal Başlık:</string>
+    <string name="lbl_budget">Bütçe:</string>
+    <string name="lbl_revenue">Kazanç:</string>
+    <string name="lbl_adult">Yetişkin İçerik:</string>
+    <string name="btn_see_movie_details">Film Detayları</string>
+    <string name="lbl_genres">Türler</string>
+    <string name="lbl_movie_details">Film Detayları</string>
+    <string name="lbl_similar_movies">Benzer Filmler</string>
+    <string name="lbl_yes">Evet</string>
+    <string name="lbl_no">Hayır</string>
+    <string name="lbl_similar_tv_shows">Benzer Diziler</string>
+    <string name="btn_see_tv_show_details">Dizi Detayları</string>
+    <string name="lbl_seasons">Sezon Sayısı:</string>
+    <string name="lbl_episodes">Bölüm Sayısı:</string>
+    <string name="lbl_first_air_date">Çıkış Tarihi:</string>
+    <string name="msg_tv_show_details_couldnt_loaded">Dizi detayları yüklenemedi.</string>
+    <string name="tv_show_hasnt_got_an_overview">Bu dizi için açıklama bulunmuyor.</string>
+    <string name="lbl_tv_show_details">Dizi Detayları</string>
+</resources>

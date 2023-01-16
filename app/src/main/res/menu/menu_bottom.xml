@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/moviesFragment"
+        android:icon="@drawable/ic_movie"
+        android:title="@string/menu_bottom_lbl_movies" />
+    <item
+        android:id="@+id/tvShowsFragment"
+        android:icon="@drawable/ic_tv"
+        android:title="@string/menu_bottom_lbl_tv_shows" />
+</menu>

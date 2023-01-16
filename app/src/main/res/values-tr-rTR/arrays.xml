@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="MovieSortTypes">
+        <item>Popüler Filmler</item>
+        <item>En Çok Oy Alan Filmler</item>
+        <item>Yaklaşan Filmler</item>
+    </string-array>
+
+    <string-array name="TvShowSortTypes">
+        <item>Popüler Diziler</item>
+        <item>En Çok Oy Alan Diziler</item>
+        <item>Yayındaki Diziler</item>
+    </string-array>
+</resources>
