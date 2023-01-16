@@ -1,5 +1,6 @@
 # movie-database
 Android movie application that uses The Movie Database API
+
 [https://developers.themoviedb.org/3/getting-started/introduction](https://developers.themoviedb.org/3/getting-started/introduction "https://developers.themoviedb.org/3/getting-started/introduction")
 
 # Features
